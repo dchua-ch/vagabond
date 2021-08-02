@@ -1,0 +1,100 @@
+
+* {
+    /* Browser automatically gives all block elements margin and padding.
+    This resets margin and padding to 0.  */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+:root{
+    --banner-color:rgb(0,35,172);
+    --banner2-color:rgb(0, 173, 177);
+    --bg-color:rgb(247, 255, 246);
+
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--bg-color);
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.img-div{
+    margin: 0 auto;
+}
+header{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner
+{
+    background-color: var(--banner-color);
+    width:100%;
+    text-align: center;
+    color:white;
+    padding: 1rem;
+}
+footer{
+    background-color: var(--banner-color);
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top:0;
+}
+footer > a {
+    color:white;
+    text-emphasis-style: none;
+    font-size: small;
+}
+.banner2
+{
+    background-color: var(--banner2-color);
+    width:100%;
+    /* height: 50px; */
+    text-align: center;
+    color:white;
+}
+
+.above-footer{
+    margin-top:1rem;
+}
+p{
+    margin-top:1rem;
+}
+.card{
+    border: 3px solid var(--banner2-color);
+    outline: 3px solid var(--banner-color);
+    padding:1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    margin: 1rem;
+    background-color: white;
+}
+
+.questions{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-buttons{
+    margin-top:2rem;
+}
+
+
+#acknowledgement-text{
+    text-align: center;
+}

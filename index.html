@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 5</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class = "banner">
+            <h1>New Registration</h1>
+        </div>
+        <div class = "banner2">
+            <!-- &nbsp; is non-breaking space. added so that div will render -->
+            &nbsp; 
+        </div>
+        
+    </header>
+    <div class = "img-div">
+        <!-- 
+            FOR INSTRUCTOR:
+            Please note that logo was taken from:
+            https://www.freelogodesign.org/
+         -->
+        <a href="acknowledgements.html"><img class = "logo" src="./images/Vagabond.png" alt=""></a>
+    </div>
+
+    
+    <form action="mailto:danielchua93@gmail.com" method= "post">
+        <div class = "questions">
+            <div class = "card">
+                
+                <h2>Personal Information</h2>
+                <label for="name">Name: </label>
+                <input type="text" name = "name" id = "name" placeholder= "e.g. John Doe" size = '30'>
+                <br>
+                <div>
+                    <label for="gender">Gender:</label>
+                    <input type="radio" name="gender" value = "male" id="male">
+                    <span>Male</span>
+                    <input type="radio" name="gender" value = "female" id="female">
+                    <span>Female</span>
+                </div>
+                <br>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" name="dob" id="dob">
+                <br>
+                <label for="Mobile">Mobile: </label>
+                <input type="text" name="" id="">
+                <br>
+                <label for="email">Email: </label>
+                <input type="text" name = "email" id = "email" placeholder= "e.g. johndoe123@funkymail.com" size = '30'>
+                <br>
+            </div>
+            <div class = 'card'>
+                <div>
+                    <h2>Areas of Interest</h2>
+                    <p>Tell us where you'd like to travel!</p>
+                </div>
+                <div><input type="checkbox" name="regions" value = "europe"> Europe</div>
+                <div><input type="checkbox" name="regions" value = "north-america"> North America</div>
+                <div><input type="checkbox" name="regions" value = "south-america"> South America</div>
+                <div><input type="checkbox" name="regions" value = "middle-east"> Middle-East</div>
+                <div><input type="checkbox" name="regions" value = "east-asia"> East Asia</div>
+                <div><input type="checkbox" name="regions" value = "southeast-asia"> Southeast Asia</div>
+                <div><input type="checkbox" name="regions" value = "south-asia"> South Asia</div>
+                <div><input type="checkbox" name="regions" value = "aus-nz"> Australia/New Zealand</div>
+                
+
+            </div>
+
+            <div class = 'card'>
+                <div>
+                    <h2>Preferred activities</h2>
+                    <p>What do you look forward to when you travel?</p>
+                </div>
+                <div><input type="checkbox" name="activities" value = "sightseeing"> Sightseeing</div>
+                <div><input type="checkbox" name="activities" value = "dining"> Dining</div>
+                <div><input type="checkbox" name="activities" value = "shopping"> Shopping</div>
+                <div><input type="checkbox" name="activities" value = "nature"> Nature</div>
+                <div><input type="checkbox" name="activities" value = "thrills"> Thrills</div>
+                <div><input type="checkbox" name="activities" value = "relaxation"> Relaxation</div>
+            </div>
+
+            <div class = "card">
+                <div>
+                    <h2>Payment Method</h2>
+                    <p>How would you like to pay for the registration fee?</p>
+                </div>
+                <div><input type="radio" name="payment-method" value = "credit-card">Credit card</div>
+                <div><input type="radio" name="payment-method" value = "cheque">Cheque</div>
+                <div><input type="radio" name="payment-method" value = "qr-pay">QR Pay</div>
+                <p>Thank you!</p>
+            </div>
+        </div>
+
+
+        <div class = "form-buttons">
+            <input type="submit" name="" id="">
+            <input type="reset" name="" id="">
+        </div>
+    </form>
+    <div>
+        <div class = "banner2 above-footer">
+            &nbsp;
+        </div>
+        <footer>
+        
+        
+            <a href="">Privacy Policy</a>
+            <a href="">Terms of Use</a>
+            <a href="">Contact</a>
+            <a href="acknowledgements.html">Acknowledgements</a>
+        
+        </footer>
+    </div>
+
+
+
+    
+</body>
+</html>
