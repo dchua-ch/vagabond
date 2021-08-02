@@ -7,7 +7,7 @@
     box-sizing: border-box;
   }
 :root{
-    --top-color:rgb(0,35,172);
+    --top1-color:rgb(0,35,172);
     --top2-color:rgb(0, 173, 177);
     --bg-color:rgb(247, 255, 246);
 
@@ -33,7 +33,7 @@ header{
 
 .top1
 {
-    background-color:var(--top-color);
+    background-color:var(--top1-color);
     width:100%;
     text-align: center;
     color:white;
@@ -41,7 +41,7 @@ header{
     display: block;
 }
 footer{
-    background-color: var(--top-color);
+    background-color: var(--top1-color);
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -69,7 +69,7 @@ p{
 }
 .card{
     border: 3px solid var(--top2-color);
-    outline: 3px solid var(--top-color);
+    outline: 3px solid var(--top1-color);
     padding:1rem;
     display: flex;
     flex-direction: column;
