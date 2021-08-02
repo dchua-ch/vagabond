@@ -7,8 +7,8 @@
     box-sizing: border-box;
   }
 :root{
-    --banner-color:rgb(0,35,172);
-    --banner2-color:rgb(0, 173, 177);
+    --top-color:rgb(0,35,172);
+    --top2-color:rgb(0, 173, 177);
     --bg-color:rgb(247, 255, 246);
 
 }
@@ -33,7 +33,7 @@ header{
 
 .top1
 {
-    background-color:var(--banner-color);
+    background-color:var(--top-color);
     width:100%;
     text-align: center;
     color:white;
@@ -41,7 +41,7 @@ header{
     display: block;
 }
 footer{
-    background-color: var(--banner-color);
+    background-color: var(--top-color);
     display:flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -54,7 +54,7 @@ footer > a {
 }
 .top2
 {
-    background-color: var(--banner2-color);
+    background-color: var(--top2-color);
     width:100%;
     /* height: 50px; */
     text-align: center;
@@ -68,8 +68,8 @@ p{
     margin-top:1rem;
 }
 .card{
-    border: 3px solid var(--banner2-color);
-    outline: 3px solid var(--banner-color);
+    border: 3px solid var(--top2-color);
+    outline: 3px solid var(--top-color);
     padding:1rem;
     display: flex;
     flex-direction: column;
