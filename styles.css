@@ -31,13 +31,14 @@ header{
     align-items: center;
 }
 
-.banner
+.top1
 {
-    background-color: var(--banner-color);
+    background-color:var(--banner-color);
     width:100%;
     text-align: center;
     color:white;
     padding: 1rem;
+    display: block;
 }
 footer{
     background-color: var(--banner-color);
@@ -51,7 +52,7 @@ footer > a {
     text-emphasis-style: none;
     font-size: small;
 }
-.banner2
+.top2
 {
     background-color: var(--banner2-color);
     width:100%;
